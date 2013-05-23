@@ -87,26 +87,12 @@ public class MessageAuthenticationCodeAction extends Action<MessageAuthenticatio
             /**
              * Sign and check validity.
              */
-
             String hmac = hmacDigest(StringUtils.join(Arrays.asList(requestMethod, path, queryString), "\n"), secret, "HmacSHA256");
-
-            Logger.debug("hmac: " + hmac);
-            Logger.debug("string: " + StringUtils.join(Arrays.asList(requestMethod, path, queryString), "\n"));
-
             if(!hmac.equals(authSignature)) {
                 Logger.warn("MessageAuthenticationCode: Verification failed.");
                 Logger.debug("was: " + authSignature);
                 return forbidden();
             }
-
-            /*
-            String value = configuration.value();
-            String csp = (value == null || value.isEmpty()) ? POLICIES : value;
-
-            ctx.response().setHeader(OFFICIAL, csp);
-            ctx.response().setHeader(MOZILLA, csp);
-            ctx.response().setHeader(WEBKIT, csp);
-            */
         }
         return delegate.call(ctx);
     }
