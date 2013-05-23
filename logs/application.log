@@ -1,0 +1,139 @@
+2013-05-24 02:28:06,093 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2013-05-24 02:28:09,604 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:28:09,979 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+secret: 7ad3773142a6692b25b8
+
+2013-05-24 02:31:12,376 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:31:12,449 - [DEBUG] - from application in play-akka.actor.default-dispatcher-9 
+hmac: 3a33ad1022a097b75a7b5bfabd214ba6d6c56e3d1f71d9f28f3d166876f3bc25
+
+2013-05-24 02:32:07,602 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:32:07,629 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+hmac: 3a33ad1022a097b75a7b5bfabd214ba6d6c56e3d1f71d9f28f3d166876f3bc25
+
+2013-05-24 02:32:07,630 - [WARN] - from application in play-akka.actor.default-dispatcher-12 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:32:37,979 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:32:37,999 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+hmac: 3a33ad1022a097b75a7b5bfabd214ba6d6c56e3d1f71d9f28f3d166876f3bc25
+
+2013-05-24 02:32:37,999 - [WARN] - from application in play-akka.actor.default-dispatcher-15 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:32:38,000 - [DEBUG] - from application in play-akka.actor.default-dispatcher-15 
+was: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:33:44,956 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:33:44,977 - [DEBUG] - from application in play-akka.actor.default-dispatcher-18 
+hmac: 47861890b2f935bfa4928b1dc1e13dd1664fb87b2a4dae4e41ecec02c3a6e578
+
+2013-05-24 02:33:44,978 - [WARN] - from application in play-akka.actor.default-dispatcher-18 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:33:44,978 - [DEBUG] - from application in play-akka.actor.default-dispatcher-18 
+was: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:34:14,483 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:34:14,501 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+hmac: 47861890b2f935bfa4928b1dc1e13dd1664fb87b2a4dae4e41ecec02c3a6e578
+
+2013-05-24 02:34:14,502 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+string: GET
+/apps/3/events
+auth_key=278d425bdf160c739803&auth_timestamp=1369350549&auth_version=1.0&body_md5=ec365a775a4cd0599faeb73354201b6f
+
+2013-05-24 02:34:14,502 - [WARN] - from application in play-akka.actor.default-dispatcher-16 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:34:14,502 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+was: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:34:44,424 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:34:44,442 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+hmac: f56dd1b70091fcf16f7d004b69ee4cfa5e61fad2725b9511696c9b11c085a671
+
+2013-05-24 02:34:44,442 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+string: POST
+/apps/3/events
+auth_key=278d425bdf160c739803&auth_timestamp=1369350549&auth_version=1.0&body_md5=ec365a775a4cd0599faeb73354201b6f
+
+2013-05-24 02:34:44,442 - [WARN] - from application in play-akka.actor.default-dispatcher-23 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:34:44,442 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+was: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:35:22,219 - [WARN] - from application in play-akka.actor.default-dispatcher-25 
+MessageAuthenticationCode: Timestamp validation failed.
+
+2013-05-24 02:35:24,415 - [WARN] - from application in play-akka.actor.default-dispatcher-27 
+MessageAuthenticationCode: Timestamp validation failed.
+
+2013-05-24 02:35:33,732 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:35:33,750 - [WARN] - from application in play-akka.actor.default-dispatcher-25 
+MessageAuthenticationCode: Timestamp validation is disabled.
+
+2013-05-24 02:35:33,751 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+hmac: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:35:33,751 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+string: POST
+/apps/3/events
+auth_key=278d425bdf160c739803&auth_timestamp=1353088179&auth_version=1.0&body_md5=ec365a775a4cd0599faeb73354201b6f
+
+2013-05-24 02:35:46,797 - [WARN] - from application in play-akka.actor.default-dispatcher-30 
+MessageAuthenticationCode: Timestamp validation is disabled.
+
+2013-05-24 02:35:46,798 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+hmac: 03bd9addab8f9d6356a5fb5bf879c9882a1d24884fa0e9ebc11d0837ddfd5222
+
+2013-05-24 02:35:46,798 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+string: POST
+/apps/3/events
+auth_key=278d425bdf160c739803&auth_timestamp=1353088178&auth_version=1.0&body_md5=ec365a775a4cd0599faeb73354201b6f
+
+2013-05-24 02:35:46,798 - [WARN] - from application in play-akka.actor.default-dispatcher-30 
+MessageAuthenticationCode: Verification failed.
+
+2013-05-24 02:35:46,798 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+was: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:35:50,722 - [WARN] - from application in play-akka.actor.default-dispatcher-32 
+MessageAuthenticationCode: Timestamp validation is disabled.
+
+2013-05-24 02:35:50,723 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+hmac: da454824c97ba181a32ccc17a72625ba02771f50b50e1e7430e47a1f3f457e6c
+
+2013-05-24 02:35:50,723 - [DEBUG] - from application in play-akka.actor.default-dispatcher-32 
+string: POST
+/apps/3/events
+auth_key=278d425bdf160c739803&auth_timestamp=1353088179&auth_version=1.0&body_md5=ec365a775a4cd0599faeb73354201b6f
+
+2013-05-24 02:36:53,789 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-05-24 02:36:53,805 - [WARN] - from application in play-akka.actor.default-dispatcher-33 
+MessageAuthenticationCode: Timestamp validation failed.
+
+2013-05-24 02:36:55,035 - [WARN] - from application in play-akka.actor.default-dispatcher-33 
+MessageAuthenticationCode: Timestamp validation failed.
+
