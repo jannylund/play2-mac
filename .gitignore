@@ -3,4 +3,4 @@ app/.DS_Store
 
 target/.history
 
-*.class
+target/
