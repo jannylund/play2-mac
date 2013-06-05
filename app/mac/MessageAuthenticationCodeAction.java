@@ -147,7 +147,7 @@ public class MessageAuthenticationCodeAction extends Action<MessageAuthenticatio
             Mac mac = Mac.getInstance(algorithm);
             mac.init(key);
 
-            byte[] bytes = mac.doFinal(msg.getBytes("ASCII"));
+            byte[] bytes = mac.doFinal(msg.getBytes("UTF-8"));
 
             StringBuffer hash = new StringBuffer();
             for (int i = 0; i < bytes.length; i++) {
