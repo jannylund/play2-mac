@@ -1,3 +1,27 @@
+/**
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015 Jan Nylund
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 package mac;
 
 import org.apache.commons.lang3.StringUtils;
@@ -19,7 +43,6 @@ import java.util.TreeMap;
 import static play.Play.application;
 
 /**
- * Oy Feadro AB
  *
  * Support Message Authentication Codes according to Pushers API: http://pusher.com/docs/rest_api#authentication
  *
@@ -27,9 +50,6 @@ import static play.Play.application;
  * 1. Fix support for selecting hash via auth_version.
  * 2. Validate that the body actually exists and has a correct md5.
  *
- * User: jan
- * Date: 2013-05-24
- * Time: 01:15
  */
 public class MessageAuthenticationCodeAction extends Action<MessageAuthenticationCode> {
     public static final String MAC_ALREADY_VALIDATED = "mac-already-validated";
